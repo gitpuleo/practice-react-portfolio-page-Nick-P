@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import FeedbackForm from './Components/FormComponent'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <FeedbackForm />
     </>
   )
 }
